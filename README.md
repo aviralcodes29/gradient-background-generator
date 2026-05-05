@@ -40,20 +40,8 @@ Create **linear, radial, and conic** gradients with **multiple color stops**, pr
 
 ## 🖼 Screenshots
 
-> Add your own screenshots to make this section shine. Example filenames:
-
-- `screenshots/gradient-generator-linear.png` – Linear gradient with 3 color stops  
-- `screenshots/gradient-generator-conic.png` – Conic gradient with multiple stops  
-- `screenshots/gradient-generator-mobile.png` – Mobile view
-
-```html
-<!-- Example snippet for GitHub README (Markdown) -->
-<!-- Replace these with actual image links in your repo: -->
-
-
-
-
-```
+![Gradient Generator – Linear](screenshots/gradient-generator-linear.png)  
+![Gradient Generator – Conic](screenshots/gradient-generator-conic.png)
 
 ---
 
@@ -129,9 +117,9 @@ Just open `index.html` in your browser:
 Working on this project helped practice:
 
 - Managing **state** in vanilla JS (array of color stops)
-- Using **dynamic DOM rendering** for lists (color stop rows, presets)
+- Using **dynamic DOM rendering** for lists (color stops and presets)
 - Synchronizing **range + number + color + hex inputs**
-- Building a small tool that feels like real designer utilities (CSSGradient, Colorffy, etc.)
+- Building a small tool that feels like real designer utilities (CSSGradient, Colorffy, ColorSpace). [web:25][web:29][web:30]
 
 ---
 
@@ -139,7 +127,7 @@ Working on this project helped practice:
 
 Ideas for future versions:
 
-- Export as full CSS snippet (with class selector)
+- Export as full CSS snippet (with selector/class)
 - Export as **CSS variables** or Tailwind‑like utilities
 - Support for different radial shapes (circle / ellipse)
 - Option to save custom presets to `localStorage`
@@ -150,9 +138,11 @@ Ideas for future versions:
 ## 👤 Author
 
 **Aviral Singh**  
-B.Tech CSE (AI/ML)  
+B.Tech CSE (AI/ML)
 
 - GitHub: [@aviralcodes29](https://github.com/aviralcodes29)
+- LinkedIn: www.linkedin.com/in/aviral-singh-a425a1379
+- Email: aviral2529@gmail.com
 
 ---
 
