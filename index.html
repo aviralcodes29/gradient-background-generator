@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gradient Background Generator | Aviral</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Gradient Background Generator</h1>
+    <p class="subtitle">
+      Create linear, radial, and conic gradients with multiple color stops. Copy the CSS instantly for your UI.
+    </p>
+
+    <!-- Top controls -->
+    <section class="controls">
+      <div class="control-group">
+        <label for="gradientType">Type</label>
+        <select id="gradientType">
+          <option value="linear">Linear</option>
+          <option value="radial">Radial</option>
+          <option value="conic">Conic</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="angleRange">Angle (<span id="angleValue">90</span>°)</label>
+        <input type="range" id="angleRange" min="0" max="360" value="90" />
+        <input
+          type="number"
+          id="angleInput"
+          min="0"
+          max="360"
+          value="90"
+          class="angle-input"
+        />
+      </div>
+
+      <div class="control-group">
+        <label for="color1">Color 1</label>
+        <input type="color" id="color1" value="#ff7b7b" />
+        <input type="text" id="color1Hex" class="hex-input" value="#ff7b7b" />
+      </div>
+
+      <div class="control-group">
+        <label for="color2">Color 2</label>
+        <input type="color" id="color2" value="#6a5af9" />
+        <input type="text" id="color2Hex" class="hex-input" value="#6a5af9" />
+      </div>
+
+      <div class="buttons">
+        <button id="randomBtn">Random Gradient</button>
+        <button id="resetBtn" class="secondary">Reset</button>
+      </div>
+    </section>
+
+    <!-- Color stops section -->
+    <section class="stops-section">
+      <div class="stops-header">
+        <h2>Color Stops</h2>
+        <button id="addStopBtn" class="secondary small">+ Add Stop</button>
+      </div>
+      <div id="stopsContainer"></div>
+    </section>
+
+    <!-- Presets -->
+    <section class="presets-section">
+      <h2>Presets</h2>
+      <div id="presetsContainer" class="presets-container"></div>
+    </section>
+
+    <!-- Preview -->
+    <section class="preview" id="preview">
+      <p>Live Gradient Preview</p>
+    </section>
+
+    <!-- Code output -->
+    <section class="code-box">
+      <p>CSS Code:</p>
+      <pre><code id="codeOutput"></code></pre>
+      <button id="copyBtn">Copy CSS</button>
+    </section>
+
+    <footer class="footer">
+      <span>Made by Aviral Singh • </span>
+      <a href="https://github.com/aviralcodes29" target="_blank" rel="noreferrer">
+        github.com/aviralcodes29
+      </a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
