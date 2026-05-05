@@ -153,8 +153,6 @@ Ideas for future versions:
 B.Tech CSE (AI/ML)  
 
 - GitHub: [@aviralcodes29](https://github.com/aviralcodes29)
-- LinkedIn: *(add your link here if you want)*
-- Email: *(optional)*
 
 ---
 
